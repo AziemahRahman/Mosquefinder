@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.user.mosquefinder.Main2Activity">
+
+
+    <TextView
+
+        android:id="@+id/date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+
+        />
+
+    <Button
+        android:id="@+id/buttonNearby"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:onClick="Nearby"
+        android:text="nearby" />
+
+    <Button
+        android:id="@+id/buttonSetting"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/buttonTime"
+        android:layout_alignBottom="@+id/buttonTime"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:text="setting" />
+
+    <Button
+        android:id="@+id/buttonTime"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="Prayer Time" />
+
+
+</RelativeLayout>
